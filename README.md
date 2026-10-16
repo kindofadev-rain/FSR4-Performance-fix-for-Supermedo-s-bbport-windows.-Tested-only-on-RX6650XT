@@ -3,7 +3,7 @@
 
 FSR 4 was running at around 20 fps for me on an RX 6650 XT, while FSR 3.1 was doing 100+. The port has an option to use the original FSR 4 shaders instead of its optimized ones, and turning that on fixed it.
 
-My setup:AMD Rryzen 5 5600x,XFX RX 6650 XT, RAM 16gb 3200mhz, AMD driver 26.8.1.
+My setup: AMD Ryzen 5 5600x,XFX RX 6650 XT, RAM 16gb 3200mhz, AMD driver 26.8.1.
 
 What I get now:
 
