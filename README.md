@@ -1,8 +1,9 @@
-# FSR 4 fix for RDNA2 (Windows)
+# FSR 4 fix for Supermedo's Bloodborne Windows Port.
+##Tested on RDNA2.
 
 FSR 4 was running at around 20 fps for me on an RX 6650 XT, while FSR 3.1 was doing 100+. The port has an option to use the original FSR 4 shaders instead of its optimized ones, and turning that on fixed it.
 
-My setup: RX 6650 XT, Windows, AMD driver 26.8.1.
+My setup:AMD Rryzen 5 5600x,XFX RX 6650 XT, RAM 16gb 3200mhz, AMD driver 26.8.1.
 
 What I get now:
 
@@ -44,4 +45,4 @@ or just delete it from "Edit environment variables for your account" in Windows.
 
 ## One more thing
 
-FSR 4.1.1 doesn't work on my card. It needs the Vulkan extension `VK_VALVE_shader_mixed_float_dot_product` and the AMD driver doesn't expose it. You can check yours with `vulkaninfo | findstr /i VK_VALVE`.
+FSR 4.1.1 doesn't work on my card. It needs the Vulkan extension `VK_VALVE_shader_mixed_float_dot_product` and the AMD driver doesn't expose it. You can check yours with `vulkaninfo | findstr /i VK_VALVE` after installing the [Vulkan SDK](https://vulkan.lunarg.com/sdk/home).
