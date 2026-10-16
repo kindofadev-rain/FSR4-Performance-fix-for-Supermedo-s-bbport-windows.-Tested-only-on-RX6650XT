@@ -14,7 +14,7 @@ What I get now:
 
 I've only tried it on my own card, so I don't know if it helps other RDNA2 GPUs. I also haven't compared image quality, so it might look a bit different. If you notice anything, let me know.
 
-## How to do it
+## How to do it (it's very easy lol)
 
 1. Close the game and the launcher.
 2. Right-click inside the `bbport-windows` folder and click "Open in Terminal".
